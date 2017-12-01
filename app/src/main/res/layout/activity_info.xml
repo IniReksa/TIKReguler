@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.inireksa.tikreguler.Firebase.InfoActivity">
+
+    <Spinner
+        android:layout_margin="20dp"
+        android:id="@+id/spinerJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/info">
+    </Spinner>
+
+    <EditText
+        android:hint="Masukkan Info terbaru"
+        android:id="@+id/editTextIsi"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recInfo"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/txt_no_data"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Tidak Ada Info Apapun / Cek Akses Internet"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

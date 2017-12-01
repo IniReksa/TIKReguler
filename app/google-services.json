@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "340282231875",
+    "firebase_url": "https://tikreguler-beta2.firebaseio.com",
+    "project_id": "tikreguler-beta2",
+    "storage_bucket": "tikreguler-beta2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340282231875:android:f34915ba6de90159",
+        "android_client_info": {
+          "package_name": "com.inireksa.tikreguler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340282231875-0md45j14k4kju43fg09neu1qlf3h5cl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inireksa.tikreguler",
+            "certificate_hash": "05d98ff44392e2cfd489062127ab4041cca63123"
+          }
+        },
+        {
+          "client_id": "340282231875-o9pv0d6jtb2ffmosgua8p24urri4v0r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwVLCT8EI_qx_5K9q4nx6ifb-sexwNQJA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340282231875-o9pv0d6jtb2ffmosgua8p24urri4v0r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
